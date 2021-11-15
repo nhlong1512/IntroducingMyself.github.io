@@ -4,7 +4,6 @@
     margin: 0;
     box-sizing: inherit;
 }
-
 html{
     font-size: 62.5%;
     font-family: 'Roboto', sans-serif;
@@ -227,9 +226,6 @@ html{
 }
 
 /* Begin experience */
-#experience{
-    
-}
 
 .experience-img{
     width: 100%;
@@ -243,20 +239,9 @@ html{
 .experience-link-img:hover .experience-img{
     transform: scale(1.007);
 }
-
-
-
-
 /* End experience */
 
-#education{
-    
-}
-
-#skills{
-    
-}
-
+/* Begin skills */
 .list-inline-icons{
     font-size: 4.8rem;
     list-style-type: none;
@@ -293,17 +278,9 @@ html{
 .text-color{
     color: #aaabac;
 }
+/* End skills */
 
-
-
-#interests{
-    
-}
-
-#awards{
-    
-}
-
+/* Begin awards */
 .list-awards-ul{
     list-style-type: none;
 }
@@ -314,4 +291,6 @@ html{
     margin-right: 16px;
     color:#ffc107;
 }
+/* End awards */
+
 
