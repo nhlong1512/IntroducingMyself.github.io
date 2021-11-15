@@ -126,16 +126,17 @@ html{
 }
 
 .social-icon{
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    height: 5.6rem;
     width: 5.6rem;
+    height: 5.6rem;
     background-color: #495057;
     color: #fff;
-    border-radius: 100%;
     font-size: 2.4rem;
-    margin-right: 2.4rem;
+    border-radius: 100%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 24px;
+
 }
 
 .social-icon:hover{
@@ -144,10 +145,66 @@ html{
 
 /* End about */
 
+.heading1{
+    font-size: 5.6rem;
+    color: #343a40;
+    line-height: 6.8rem;
+    text-transform: uppercase;
+    margin-bottom: 48px;
+    font-weight: 700;
+    letter-spacing: 0.1rem;
 
-#experience{
-    
 }
+
+.timeline-job{
+    display: flex;
+    margin-bottom: 48px;
+    flex-direction: row;
+}
+
+.job{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.heading2{
+    color: #343a40;
+    font-size: 3.2rem;
+    line-height: 38.4px;
+    letter-spacing: 0.05rem;
+    text-transform: uppercase;
+}
+
+.heading3{
+    font-size: 2.4rem;
+    line-height: 3.6rem;
+    margin-bottom: 16px;
+    color: #6c757d;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+.timeline-job-content{
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+    color: #6c757d;
+    margin-bottom: 16px;
+}
+
+.timeline{
+    display: flex;
+    flex-shrink: 0;
+    font-size: 1.6rem;
+    color: #bd5d38;
+
+}
+
+/* Begin experience */
+#experience{
+
+}
+/* End experience */
 
 #education{
     
@@ -156,6 +213,45 @@ html{
 #skills{
     
 }
+
+.list-inline-icons{
+    font-size: 4.8rem;
+    list-style-type: none;
+    color: #6c757d;
+    display: inline-flex;
+    margin-bottom: 36px;
+}
+
+.list-inline-item{
+    margin-right: 24px;
+}
+
+.base-skills{
+    font-size: 2.4rem;
+    line-height: 3.6rem;
+    margin-bottom: 8px;
+    color: #6c757d;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+.list-inline-nodes{
+    list-style-type: none;
+    font-size: 1.6rem;
+    display: inline-flex;
+    margin-bottom: 36px;
+}
+
+.list-inline-node{
+    margin-right: 8px;
+    color: #bd5d38;
+}
+
+.text-color{
+    color: #aaabac;
+}
+
+
 
 #interests{
     
