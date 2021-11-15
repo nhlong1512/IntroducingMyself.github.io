@@ -9,10 +9,31 @@ html{
     font-size: 62.5%;
     font-family: 'Roboto', sans-serif;
     box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+.mt-8{
+    margin-top: 8px;
 }
 
 .mt-16{
     margin-top: 16px;
+}
+
+.mb-32{
+    margin-bottom: 32px;
+}
+
+.mt-48{
+    margin-top: 48px;
+}
+
+.ml-16{
+    margin-left: 16px;
+}
+
+.ml-8{
+    margin-left: 8px;
 }
 
 #main{
@@ -170,6 +191,7 @@ html{
     display: flex;
     flex-direction: column;
     flex-grow: 1;
+    position: relative;
 }
 
 .heading2{
@@ -206,8 +228,25 @@ html{
 
 /* Begin experience */
 #experience{
-
+    
 }
+
+.experience-img{
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 16px;
+    box-shadow: 1px 1px 11px 5px #888;
+    transition: transform 0.3s;
+}
+
+
+.experience-link-img:hover .experience-img{
+    transform: scale(1.007);
+}
+
+
+
+
 /* End experience */
 
 #education{
@@ -263,5 +302,16 @@ html{
 
 #awards{
     
+}
+
+.list-awards-ul{
+    list-style-type: none;
+}
+
+.list-award-li{
+    display: flex;
+    font-size: 2rem;
+    margin-right: 16px;
+    color:#ffc107;
 }
 
