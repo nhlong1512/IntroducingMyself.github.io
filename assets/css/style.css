@@ -11,6 +11,10 @@ html{
     box-sizing: border-box;
 }
 
+.mt-16{
+    margin-top: 16px;
+}
+
 #main{
     padding-top: 0;
     padding-left: 272px;
