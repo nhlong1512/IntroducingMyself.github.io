@@ -44,7 +44,7 @@ html{
 .navbar{
     width: 272px;
     height: 100vh;
-    background-color: #bd5d38;
+    background-color: #3f9599;
     float: left;
     display: flex;
     flex-direction: column;
@@ -126,7 +126,7 @@ html{
 }
 
 .about-name-span{
-    color: #bd5d38;
+    color: #3f9599;
 }
 
 .about-sub-name{
@@ -138,7 +138,7 @@ html{
 }
 
 .about-sub-name-gmail{
-    color: #bd5d38;
+    color: #3f9599;
 }
 
 .about-content{
@@ -164,7 +164,7 @@ html{
 }
 
 .social-icon:hover{
-    background-color: #bd5d38;
+    background-color: #3f9599;
 }
 
 /* End about */
@@ -221,7 +221,7 @@ html{
     display: flex;
     flex-shrink: 0;
     font-size: 1.6rem;
-    color: #bd5d38;
+    color: #3f9599;
 
 }
 
@@ -272,7 +272,7 @@ html{
 
 .list-inline-node{
     margin-right: 8px;
-    color: #bd5d38;
+    color: #3f9599;
 }
 
 .text-color{
