@@ -71,6 +71,10 @@ html{
     border: 0.8rem solid rgba(255, 255, 255, 0.2);
 }
 
+.navbar-input-pc:checked ~ .navbar-content-a{
+    color: #fff;
+}
+
 .navbar-content{
     display: flex;
     margin: 0 auto auto auto;
@@ -85,7 +89,6 @@ html{
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 1.6rem;
 }
 
 .navbar-content-li:hover .navbar-content-a{
@@ -94,8 +97,8 @@ html{
 
 .navbar-content-a{
     text-transform: uppercase;
-    font-size: 1.6rem;
-    line-height: 2.4rem;
+    font-size: 2.4rem;
+    line-height: 3.6rem;
     font-weight: 700;
     color: #FFFFFF80;
     letter-spacing: 0.1rem;
@@ -482,6 +485,10 @@ html{
 
     .list-inline-item{
         font-size: 4rem;
+    }
+
+    .navbar-mobile-content-a{
+        padding: 20px 200px;
     }
 
 }
