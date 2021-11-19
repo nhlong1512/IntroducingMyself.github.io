@@ -51,6 +51,7 @@ html{
     top: 0;
     left: 0;
     position: fixed;
+    /* display: none; */
 }
 
 .navbar-img{
@@ -294,3 +295,92 @@ html{
 /* End awards */
 
 
+/* Begin Responsive */
+
+/* Begin navbar-mobile */
+.navbar-mobile-checkbox{
+    position: fixed;
+    width: 100%;
+    background-color: #3f9599;
+    height: 60px;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+    display: none;
+}
+
+.navbar-mobile-checkbox-btn{
+    display:flex;
+    color:#fff;
+    font-size: 4rem;
+    align-items: center;
+    margin-left: 20px;
+}
+
+.navbar-mobile{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height:260px;
+    background-color: #3f9599;
+    z-index: 100;
+    display: flex;
+    align-items: center;
+    display: none;
+}
+
+.navbar-mobile-content-li{
+    padding: 8px 16px 8px 16px;
+    display: flex;
+    align-items: center;
+    font-size: 1.6rem;
+}
+
+.navbar-mobile-content-a{
+    text-transform: uppercase;
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+    font-weight: 700;
+    color: #FFFFFF80;
+    letter-spacing: 0.1rem;
+    text-decoration: none;
+}
+
+.navbar-mobile-content-li:hover .navbar-mobile-content-a{
+    color: #fff;
+}
+
+/* End navbar-mobile */
+
+/* Mobile and Tablet */
+@media only  screen and (max-width: 1023px){
+    #main{
+        padding-left: 0;
+    }
+    .navbar{
+        display: none;
+    }
+    .navbar-mobile-checkbox{
+        display: flex;
+    }
+}
+
+/* Mobile */
+@media only screen and (max-width: 739px){
+
+}
+
+/* Tablet */
+@media only screen and (max-width: 1023px) and (min-width: 740px){
+
+}
+
+/* PC */
+@media only screen and (min-width: 1024px){
+    
+}
+
+/* End Responsive */
