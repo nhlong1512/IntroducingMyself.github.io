@@ -300,9 +300,10 @@ html{
 /* Begin navbar-mobile */
 .navbar-mobile-checkbox{
     position: fixed;
-    width: 100%;
+    width: 100vw;
+    max-width: 100%;
     background-color: #3f9599;
-    height: 60px;
+    height: 80px;
     top: 0;
     left: 0;
     right: 0;
@@ -313,7 +314,7 @@ html{
 .navbar-mobile-checkbox-btn{
     display:flex;
     color:#fff;
-    font-size: 4rem;
+    font-size: 5rem;
     align-items: center;
     margin-left: 20px;
 }
@@ -341,9 +342,10 @@ html{
     position: fixed;
     top: 0;
     bottom: 0;
-    right: 0;
-    width: 100%;
-    height:260px;
+    left: 0;
+    width: 100vw;
+    max-width: 100%;
+    height:300px;
     background-color: #3f9599;
     z-index: 100;
     display: flex;
@@ -356,7 +358,7 @@ html{
     top: 0;
     right: 0;
     padding: 16px;
-    font-size: 3rem;
+    font-size: 4rem;
     color: #FFFFFF80;
 }
 
@@ -368,13 +370,13 @@ html{
     padding: 8px 16px 8px 16px;
     display: flex;
     align-items: center;
-    font-size: 1.6rem;
+    font-size: 2.4rem;
 }
 
 .navbar-mobile-content-a{
     text-transform: uppercase;
-    font-size: 1.6rem;
-    line-height: 2.4rem;
+    font-size: 2.4rem;
+    line-height: 3rem;
     font-weight: 700;
     color: #FFFFFF80;
     letter-spacing: 0.1rem;
