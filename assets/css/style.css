@@ -322,6 +322,20 @@ html{
     display: flex;
 }
 
+.navbar-input:checked ~ .navbar-overlay{
+    display: block;
+}
+
+.navbar-overlay{
+    position: fixed;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.3);
+    display: none;
+    z-index: 30;
+}
 
 .navbar-mobile{
     position: fixed;
@@ -337,7 +351,18 @@ html{
     display: none;
 }
 
+.navbar-cancel-btn{
+    position: fixed;
+    top: 0;
+    right: 0;
+    padding: 16px;
+    font-size: 3rem;
+    color: #FFFFFF80;
+}
 
+.navbar-cancel-btn:hover{
+    color: #fff;
+}
 
 .navbar-mobile-content-li{
     padding: 8px 16px 8px 16px;
