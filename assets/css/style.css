@@ -318,6 +318,11 @@ html{
     margin-left: 20px;
 }
 
+.navbar-input:checked ~ .navbar-mobile{
+    display: flex;
+}
+
+
 .navbar-mobile{
     position: fixed;
     top: 0;
@@ -331,6 +336,8 @@ html{
     align-items: center;
     display: none;
 }
+
+
 
 .navbar-mobile-content-li{
     padding: 8px 16px 8px 16px;
