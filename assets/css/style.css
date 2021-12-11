@@ -71,10 +71,6 @@ html{
     border: 0.8rem solid rgba(255, 255, 255, 0.2);
 }
 
-.navbar-input-pc:checked ~ .navbar-content-a{
-    color: #fff;
-}
-
 .navbar-content{
     display: flex;
     margin: 0 auto auto auto;
