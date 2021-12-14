@@ -101,6 +101,10 @@ html{
     text-decoration: none;
 }
 
+.navbar-content-a.active{
+    color: #fff;
+}
+
 /* End navbar */
 
 .content{
